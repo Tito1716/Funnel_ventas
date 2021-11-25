@@ -43,39 +43,45 @@ public class cConexion
             cnSQL.Close();
         }
     }
-    bool conecOpen = false;
+
     public bool login(string nombre, string pass)
     {
         usuario usu = new usuario();
-        
-        var connection = cnSQL;
-        if (!conecOpen)
+        try
         {
+            var connection = cnSQL;
             connection.Open();
-            conecOpen = true;
-        }
-       
-        using (var command = new MySqlCommand())
-        {
-            command.Connection = connection;
-            command.CommandText = "select * from  usuario where(nombre=@nombre and password=@pass)";
-            command.Parameters.AddWithValue("@nombre", nombre);
-            command.Parameters.AddWithValue("@pass", pass);
-            command.CommandType = CommandType.Text;
-            MySqlDataReader reader = command.ExecuteReader();
-            if (reader.HasRows)
+
+            using (var command = new MySqlCommand())
             {
-                while (reader.Read())
+                command.Connection = connection;
+                command.CommandText = "select * from  usuario where(nombre=@nombre and password=@pass)";
+                command.Parameters.AddWithValue("@nombre", nombre);
+                command.Parameters.AddWithValue("@pass", pass);
+                command.CommandType = CommandType.Text;
+                MySqlDataReader reader = command.ExecuteReader();
+                if (reader.HasRows)
                 {
-                    usu.Id_usuario = reader.GetInt32(0);
-                    usu.Nombre = reader.GetString(1);
-                    usu.Password = reader.GetString(2);
-                    usu.Tipo_usuario = reader.GetInt32(3);
+                    while (reader.Read())
+                    {
+                        usu.Id_usuario = reader.GetInt32(0);
+                        usu.Nombre = reader.GetString(1);
+                        usu.Password = reader.GetString(2);
+                        usu.Tipo_usuario = reader.GetInt32(3);
+                    }
+                    return true;
                 }
-                return true;
+                else
+                    return false;
             }
-            else
-                return false;
+        }
+        catch (Exception ex)
+        {
+            throw ex;
+        }
+        finally
+        {
+            cnSQL.Close();
         }
 
     }
