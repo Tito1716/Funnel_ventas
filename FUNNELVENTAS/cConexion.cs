@@ -3,20 +3,22 @@ using System.Data;
 using System.Configuration;
 using MySql.Data.MySqlClient;
 using FUNNELVENTAS.Clases;
+using System.Collections.Generic;
+
 public class cConexion
 {
     const String var_ruta = "server=localhost;user id=root;password=24505147St*;persist security info=True;database=funnel_ventas2";
     DataSet ds = new DataSet();
-    MySql.Data.MySqlClient.MySqlConnection cnSQL=new MySql.Data.MySqlClient.MySqlConnection(var_ruta);
-    MySql.Data.MySqlClient.MySqlCommand cmSQL=new MySql.Data.MySqlClient.MySqlCommand();
+    MySql.Data.MySqlClient.MySqlConnection cnSQL = new MySql.Data.MySqlClient.MySqlConnection(var_ruta);
+    MySql.Data.MySqlClient.MySqlCommand cmSQL = new MySql.Data.MySqlClient.MySqlCommand();
 
-    public DataSet buscar(String strSQL,String tabla){
-        DataSet ds= new DataSet();
+    public DataSet buscar(String strSQL, String tabla) {
+        DataSet ds = new DataSet();
         try
-        {    
-        cnSQL.Open();
-        MySql.Data.MySqlClient.MySqlDataAdapter daSQL =new MySql.Data.MySqlClient.MySqlDataAdapter(strSQL,cnSQL);
-        daSQL.Fill(ds,tabla);   
+        {
+            cnSQL.Open();
+            MySql.Data.MySqlClient.MySqlDataAdapter daSQL = new MySql.Data.MySqlClient.MySqlDataAdapter(strSQL, cnSQL);
+            daSQL.Fill(ds, tabla);
         }
         catch (Exception ex)
         {
@@ -28,20 +30,42 @@ public class cConexion
         }
         return ds;
     }
-    public void operacion(String strsql){
-        try{
+    public void operacion(String strsql) {
+        try {
             cnSQL.Open();
-            MySql.Data.MySqlClient.MySqlCommand cmSQL=new MySql.Data.MySqlClient.MySqlCommand(strsql,cnSQL);
+            MySql.Data.MySqlClient.MySqlCommand cmSQL = new MySql.Data.MySqlClient.MySqlCommand(strsql, cnSQL);
             cmSQL.ExecuteNonQuery();
         }
-        catch(Exception ex)
+        catch (Exception ex)
         {
-           throw ex;
+            throw ex;
         }
         finally
         {
             cnSQL.Close();
         }
+    }
+
+    public DataTable getCombo(string query)
+    {
+        DataTable dt = new DataTable();
+        try
+        {
+            cnSQL.Open();
+            MySql.Data.MySqlClient.MySqlCommand cmSQL = new MySql.Data.MySqlClient.MySqlCommand(query, cnSQL);
+            MySqlDataAdapter data = new MySqlDataAdapter(cmSQL);
+           
+            data.Fill(dt);
+        }
+        catch (Exception ex)
+        {
+            throw ex;
+        }
+        finally
+        {
+            cnSQL.Close();
+        }
+        return dt;
     }
 
     public bool login(string nombre, string pass)
@@ -85,6 +109,9 @@ public class cConexion
         }
 
     }
+
+    
+
     public double escalar_double(String strsql){
         try{
             cnSQL.Open();
