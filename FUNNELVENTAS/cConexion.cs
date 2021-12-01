@@ -122,11 +122,11 @@ public class cConexion
                 command.CommandText = "INSERT INTO ventas (nombre_cliente, Ejecutivo_Cuentas, tipo_gestion, tipo_estado," +
                     "prox_Gestion, fecha_inicial, cantidad_equipo, tipo_equipo, marca_equipo, detalle_equipo, monto_equipo," +
                     "cantidad_enlace, tipo_enlace, tipo_ancho, detalle_enlace, monto_enlace, cantidad_consultoria, " +
-                    "tipo_consultoria, tipo_consultoria2, detalle_consultoria, monto_consultoria, total, " +
+                    "tipo_consultoria, tipo_consultoria2, detalle_consultoria, monto_consultoria, total, tipo_clase, " +
                     "tipo_proyecion) values (@nombre_cliente, @Ejecutivo_Cuentas, @tipo_gestion, @tipo_estado," +
                     "@prox_Gestion, @fecha_inicial, @cantidad_equipo, @tipo_equipo, @marca_equipo, @detalle_equipo, @monto_equipo," +
                     "@cantidad_enlace, @tipo_enlace, @tipo_ancho, @detalle_enlace, @monto_enlace, @cantidad_consultoria," +
-                    "@tipo_consultoria, @tipo_consultoria2, @detalle_consultoria, @monto_consultoria, @total, " +
+                    "@tipo_consultoria, @tipo_consultoria2, @detalle_consultoria, @monto_consultoria, @total, @tipo_clase, " +
                     "@tipo_proyecion)";
                 command.Parameters.AddWithValue("@nombre_cliente", venta.nombre_cliente);
                 command.Parameters.AddWithValue("@Ejecutivo_Cuentas", venta.Ejecutivo_Cuentas);
@@ -150,7 +150,7 @@ public class cConexion
                 command.Parameters.AddWithValue("@detalle_consultoria", venta.detalle_consultoria);
                 command.Parameters.AddWithValue("@monto_consultoria", venta.monto_consultoria);
                 command.Parameters.AddWithValue("@total", venta.total);
-               
+                command.Parameters.AddWithValue("@tipo_clase", venta.tipo_clase);
                 command.Parameters.AddWithValue("@tipo_proyecion", venta.tipo_proyecion);
                 command.CommandType = CommandType.Text;
                 command.ExecuteNonQuery();
