@@ -27,15 +27,16 @@ namespace FUNNELVENTAS
         private void button1_Click(object sender, EventArgs e)
         {
             Venta venta = new Venta();
-            string  tipoClase, proxGestion, ejecVentas, proba, nombreCliente;
-            venta.tipo_gestion = int.Parse(comboBox3.Text);
-            venta.tipo_estado = int.Parse(comboBox4.Text;
-            tipoClase = comboBox1.Text;
-            proxGestion = comboBox5.Text;
-            ejecVentas = "default11";
-            proba = "2";
-            nombreCliente = textBox2.Text;
-
+            venta.tipo_gestion = int.Parse(comboBox3.SelectedValue.ToString());
+            venta.tipo_estado = int.Parse(comboBox4.SelectedValue.ToString()) ;
+            venta.tipo_clase = int.Parse(comboBox1.SelectedValue.ToString());
+            venta.prox_Gestion = int.Parse(comboBox5.SelectedValue.ToString());
+            venta.Ejecutivo_Cuentas = "default11";
+            venta.tipo_proyeccion = 2;
+            venta.nombre_cliente = textBox2.Text;
+            venta.tipo_proyeccion = 1;
+            Form2 form2 = new Form2(venta);
+            form2.ShowDialog();
         }
         private void label1_Click(object sender, EventArgs e)
         {
