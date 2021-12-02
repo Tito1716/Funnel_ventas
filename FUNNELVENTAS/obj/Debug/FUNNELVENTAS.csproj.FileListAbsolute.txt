@@ -38,3 +38,9 @@ C:\Users\User\Documents\Funnel_ventas\FUNNELVENTAS\obj\Debug\FUNNELVENTAS.csproj
 C:\Users\User\Documents\Funnel_ventas\FUNNELVENTAS\obj\Debug\FUNNELVENTAS.csproj.CopyComplete
 C:\Users\User\Documents\Funnel_ventas\FUNNELVENTAS\obj\Debug\FUNNELVENTAS.exe
 C:\Users\User\Documents\Funnel_ventas\FUNNELVENTAS\obj\Debug\FUNNELVENTAS.pdb
+C:\Users\User\Documents\Funnel_ventas\FUNNELVENTAS\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Users\User\Documents\Funnel_ventas\FUNNELVENTAS\bin\Debug\SpreadsheetLight.dll
+C:\Users\User\Documents\Funnel_ventas\FUNNELVENTAS\bin\Debug\System.Drawing.Common.dll
+C:\Users\User\Documents\Funnel_ventas\FUNNELVENTAS\bin\Debug\System.IO.Packaging.dll
+C:\Users\User\Documents\Funnel_ventas\FUNNELVENTAS\bin\Debug\SpreadsheetLight.xml
+C:\Users\User\Documents\Funnel_ventas\FUNNELVENTAS\bin\Debug\System.IO.Packaging.xml

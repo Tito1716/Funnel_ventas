@@ -4,6 +4,7 @@ using System.Configuration;
 using MySql.Data.MySqlClient;
 using FUNNELVENTAS.Clases;
 using System.Collections.Generic;
+using SpreadsheetLight;
 
 public class cConexion
 {
@@ -67,7 +68,86 @@ public class cConexion
         }
         return dt;
     }
+    public void ConsultaExcel()
+    {
+        try
+        {
+            SLDocument sl = new SLDocument();
 
+            int celdacabecera = 5;
+            sl.RenameWorksheet(SLDocument.DefaultFirstSheetName, "VENTAS");
+            sl.SetCellValue("B" + celdacabecera, "Id");
+            sl.SetCellValue("C" + celdacabecera, "Cliente");
+            sl.SetCellValue("D" + celdacabecera, "Ejecutivo");
+            sl.SetCellValue("E" + celdacabecera, "Gestion");
+            sl.SetCellValue("F" + celdacabecera, "Estado");
+            sl.SetCellValue("G" + celdacabecera, "Proxima Gestion");
+            sl.SetCellValue("I" + celdacabecera, "Fecha Inicial");
+            sl.SetCellValue("J" + celdacabecera, "Cantidad Equipo");
+            sl.SetCellValue("K" + celdacabecera, "Tipo Equipo");
+            sl.SetCellValue("L" + celdacabecera, "Marca Equipo");
+            sl.SetCellValue("M" + celdacabecera, "Detalle Equipo");
+            sl.SetCellValue("N" + celdacabecera, "Monto Equipo");
+            sl.SetCellValue("O" + celdacabecera, "Cantidad Enlace");
+            sl.SetCellValue("P" + celdacabecera, "Tipo Enlace");
+            sl.SetCellValue("Q" + celdacabecera, "Tipo Ancho");
+            sl.SetCellValue("R" + celdacabecera, "Detalle Enlace");
+            sl.SetCellValue("S" + celdacabecera, "Monto Enlace");
+            sl.SetCellValue("T" + celdacabecera, "Cantidad consultoria");
+            sl.SetCellValue("U" + celdacabecera, "Tipo Consultoria");
+            sl.SetCellValue("V" + celdacabecera, "Tipo Conslturia 2");
+            sl.SetCellValue("W" + celdacabecera, "Monto Consultoria");
+            sl.SetCellValue("X" + celdacabecera, "Total");
+            sl.SetCellValue("Y" + celdacabecera, "Clase");
+            sl.SetCellValue("Z" + celdacabecera, "Proyeccion");
+
+            string query = "select id_venta, nombre_cliente, Ejecutivo_Cuentas, tipo_gestion, tipo_estado ,prox_Gestion, fecha_inicial, cantidad_equipo, tipo_equipo," +
+                "marca_equipo, detalle_equipo,  monto_equipo,cantidad_enlace, tipo_enlace, tipo_ancho,detalle_enlace, monto_enlace, cantidad_consultoria, " +
+                "tipo_consultoria, tipo_consultoria2, detalle_consultoria, monto_consultoria, total, tipo_clase, tipo_proyecion from ventas";
+
+            
+            cnSQL.Open();
+            MySql.Data.MySqlClient.MySqlCommand cmSQL = new MySql.Data.MySqlClient.MySqlCommand(query, cnSQL);
+            MySqlDataReader reader = cmSQL.ExecuteReader();
+            while (reader.Read())
+            {
+                celdacabecera++;
+                sl.SetCellValue("B" + celdacabecera, reader["id_venta"].ToString());
+                sl.SetCellValue("C" + celdacabecera, reader["nombre_cliente"].ToString());
+                sl.SetCellValue("D" + celdacabecera, reader["Ejecutivo_Cuentas"].ToString());
+                sl.SetCellValue("E" + celdacabecera, reader["tipo_gestion"].ToString());
+                sl.SetCellValue("F" + celdacabecera, reader["tipo_estado"].ToString());
+                sl.SetCellValue("G" + celdacabecera, reader["prox_Gestion"].ToString());
+                sl.SetCellValue("I" + celdacabecera, reader["fecha_inicial"].ToString());
+                sl.SetCellValue("J" + celdacabecera, reader["cantidad_equipo"].ToString());
+                sl.SetCellValue("K" + celdacabecera, reader["tipo_equipo"].ToString());
+                sl.SetCellValue("L" + celdacabecera, reader["marca_equipo"].ToString());
+                sl.SetCellValue("M" + celdacabecera, reader["detalle_equipo"].ToString());
+                sl.SetCellValue("N" + celdacabecera, reader["monto_equipo"].ToString());
+                sl.SetCellValue("O" + celdacabecera, reader["cantidad_enlace"].ToString());
+                sl.SetCellValue("P" + celdacabecera, reader["tipo_enlace"].ToString());
+                sl.SetCellValue("Q" + celdacabecera, reader["tipo_ancho"].ToString());
+                sl.SetCellValue("R" + celdacabecera, reader["detalle_enlace"].ToString());
+                sl.SetCellValue("S" + celdacabecera, reader["monto_enlace"].ToString());
+                sl.SetCellValue("T" + celdacabecera, reader["cantidad_consultoria"].ToString());
+                sl.SetCellValue("U" + celdacabecera, reader["tipo_consultoria"].ToString());
+                sl.SetCellValue("V" + celdacabecera, reader["tipo_consultoria2"].ToString());
+                sl.SetCellValue("W" + celdacabecera, reader["detalle_consultoria"].ToString());
+                sl.SetCellValue("X" + celdacabecera, reader["monto_consultoria"].ToString());
+                sl.SetCellValue("Y" + celdacabecera, reader["total"].ToString());
+                sl.SetCellValue("Z" + celdacabecera, reader["tipo_clase"].ToString());
+            }
+            sl.SaveAs("Prueba1.xlsx");
+        }
+        catch (Exception ex)
+        {
+            throw ex;
+        }
+        finally
+        {
+            cnSQL.Close();
+        }
+    }
     public bool login(string nombre, string pass)
     {
         usuario usu = new usuario();

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SpreadsheetLight;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -16,5 +17,13 @@ namespace FUNNELVENTAS
         {
             InitializeComponent();
         }
+
+        private void btnExcel_Click(object sender, EventArgs e)
+        {
+            cConexion con = new cConexion();
+            con.ConsultaExcel();
+
+        }
     }
 }
+   

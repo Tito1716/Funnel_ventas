@@ -31,7 +31,7 @@ namespace FUNNELVENTAS
             venta.tipo_estado = int.Parse(comboBox4.SelectedValue.ToString()) ;
             venta.tipo_clase = int.Parse(comboBox1.SelectedValue.ToString());
             venta.prox_Gestion = int.Parse(comboBox5.SelectedValue.ToString());
-            venta.Ejecutivo_Cuentas = "default11";
+            venta.Ejecutivo_Cuentas = comboBox2.Text;
             venta.tipo_proyeccion = 2;
             venta.nombre_cliente = textBox2.Text;
             venta.tipo_proyeccion = 1;
