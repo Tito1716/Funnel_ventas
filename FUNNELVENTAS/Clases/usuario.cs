@@ -6,10 +6,12 @@ using System.Threading.Tasks;
 
 namespace FUNNELVENTAS.Clases
 {
-    class usuario
+    public class usuario
     {
         public int Id_usuario { get; set; }
         public string Nombre { get; set; }
+
+        public string Usuario { get; set; }
         public string Password { get; set; }
         public int Tipo_usuario { get; set; }
     }

@@ -38,3 +38,65 @@ C:\Users\User\Documents\Funnel_ventas\FUNNELVENTAS\obj\Debug\FUNNELVENTAS.csproj
 C:\Users\User\Documents\Funnel_ventas\FUNNELVENTAS\obj\Debug\FUNNELVENTAS.csproj.CopyComplete
 C:\Users\User\Documents\Funnel_ventas\FUNNELVENTAS\obj\Debug\FUNNELVENTAS.exe
 C:\Users\User\Documents\Funnel_ventas\FUNNELVENTAS\obj\Debug\FUNNELVENTAS.pdb
+C:\Users\bj-sa\Desktop\Funnel_ventas-ParteTito1\FUNNELVENTAS\obj\Debug\FUNNELVENTAS.csprojAssemblyReference.cache
+C:\Users\bj-sa\Desktop\Funnel_ventas-ParteTito1\FUNNELVENTAS\obj\Debug\FUNNELVENTAS.exe.config
+C:\Users\bj-sa\Desktop\Funnel_ventas-ParteTito1\FUNNELVENTAS\obj\Debug\FUNNELVENTAS.Form1.resources
+C:\Users\bj-sa\Desktop\Funnel_ventas-ParteTito1\FUNNELVENTAS\obj\Debug\FUNNELVENTAS.Form2.resources
+C:\Users\bj-sa\Desktop\Funnel_ventas-ParteTito1\FUNNELVENTAS\obj\Debug\FUNNELVENTAS.Form3.resources
+C:\Users\bj-sa\Desktop\Funnel_ventas-ParteTito1\FUNNELVENTAS\obj\Debug\FUNNELVENTAS.Form4.resources
+C:\Users\bj-sa\Desktop\Funnel_ventas-ParteTito1\FUNNELVENTAS\obj\Debug\FUNNELVENTAS.Properties.Resources.resources
+C:\Users\bj-sa\Desktop\Funnel_ventas-ParteTito1\FUNNELVENTAS\obj\Debug\FUNNELVENTAS.csproj.GenerateResource.cache
+C:\Users\bj-sa\Desktop\Funnel_ventas-ParteTito1\FUNNELVENTAS\obj\Debug\FUNNELVENTAS.csproj.CoreCompileInputs.cache
+C:\Users\bj-sa\Desktop\Funnel_ventas-ParteTito1\FUNNELVENTAS\obj\Debug\FUNNELVENTAS.exe
+C:\Users\bj-sa\Desktop\Funnel_ventas-ParteTito1\FUNNELVENTAS\obj\Debug\FUNNELVENTAS.pdb
+C:\Users\bj-sa\Desktop\Funnel_ventas-ParteTito1\FUNNELVENTAS\bin\Debug\FUNNELVENTAS.exe.config
+C:\Users\bj-sa\Desktop\Funnel_ventas-ParteTito1\FUNNELVENTAS\bin\Debug\FUNNELVENTAS.exe
+C:\Users\bj-sa\Desktop\Funnel_ventas-ParteTito1\FUNNELVENTAS\bin\Debug\FUNNELVENTAS.pdb
+C:\Users\bj-sa\Desktop\Funnel_ventas-ParteTito1\FUNNELVENTAS\bin\Debug\MySql.Data.dll
+C:\Users\bj-sa\Desktop\Funnel_ventas-ParteTito1\FUNNELVENTAS\bin\Debug\Google.Protobuf.dll
+C:\Users\bj-sa\Desktop\Funnel_ventas-ParteTito1\FUNNELVENTAS\bin\Debug\ZstdNet.dll
+C:\Users\bj-sa\Desktop\Funnel_ventas-ParteTito1\FUNNELVENTAS\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\bj-sa\Desktop\Funnel_ventas-ParteTito1\FUNNELVENTAS\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\bj-sa\Desktop\Funnel_ventas-ParteTito1\FUNNELVENTAS\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\bj-sa\Desktop\Funnel_ventas-ParteTito1\FUNNELVENTAS\bin\Debug\System.Memory.dll
+C:\Users\bj-sa\Desktop\Funnel_ventas-ParteTito1\FUNNELVENTAS\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\bj-sa\Desktop\Funnel_ventas-ParteTito1\FUNNELVENTAS\bin\Debug\System.Buffers.dll
+C:\Users\bj-sa\Desktop\Funnel_ventas-ParteTito1\FUNNELVENTAS\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\bj-sa\Desktop\Funnel_ventas-ParteTito1\FUNNELVENTAS\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\bj-sa\Desktop\Funnel_ventas-ParteTito1\FUNNELVENTAS\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\bj-sa\Desktop\Funnel_ventas-ParteTito1\FUNNELVENTAS\bin\Debug\MySql.Data.xml
+C:\Users\bj-sa\Desktop\Funnel_ventas-ParteTito1\FUNNELVENTAS\obj\Debug\FUNNELVENTAS.csproj.CopyComplete
+C:\Users\bj-sa\Desktop\Funnel_ventas-ParteTito1\FUNNELVENTAS\obj\Debug\FUNNELVENTAS.Form5.resources
+C:\Users\Otto_\OneDrive\CICLO 2 TECNICO\PROGRA 2\Visual Studio\PROYECTO UNI4 FINAL\Funnel_ventas-ParteTito1\FUNNELVENTAS\bin\Debug\FUNNELVENTAS.exe.config
+C:\Users\Otto_\OneDrive\CICLO 2 TECNICO\PROGRA 2\Visual Studio\PROYECTO UNI4 FINAL\Funnel_ventas-ParteTito1\FUNNELVENTAS\bin\Debug\FUNNELVENTAS.exe
+C:\Users\Otto_\OneDrive\CICLO 2 TECNICO\PROGRA 2\Visual Studio\PROYECTO UNI4 FINAL\Funnel_ventas-ParteTito1\FUNNELVENTAS\bin\Debug\FUNNELVENTAS.pdb
+C:\Users\Otto_\OneDrive\CICLO 2 TECNICO\PROGRA 2\Visual Studio\PROYECTO UNI4 FINAL\Funnel_ventas-ParteTito1\FUNNELVENTAS\bin\Debug\MySql.Data.dll
+C:\Users\Otto_\OneDrive\CICLO 2 TECNICO\PROGRA 2\Visual Studio\PROYECTO UNI4 FINAL\Funnel_ventas-ParteTito1\FUNNELVENTAS\bin\Debug\Google.Protobuf.dll
+C:\Users\Otto_\OneDrive\CICLO 2 TECNICO\PROGRA 2\Visual Studio\PROYECTO UNI4 FINAL\Funnel_ventas-ParteTito1\FUNNELVENTAS\bin\Debug\ZstdNet.dll
+C:\Users\Otto_\OneDrive\CICLO 2 TECNICO\PROGRA 2\Visual Studio\PROYECTO UNI4 FINAL\Funnel_ventas-ParteTito1\FUNNELVENTAS\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\Otto_\OneDrive\CICLO 2 TECNICO\PROGRA 2\Visual Studio\PROYECTO UNI4 FINAL\Funnel_ventas-ParteTito1\FUNNELVENTAS\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Otto_\OneDrive\CICLO 2 TECNICO\PROGRA 2\Visual Studio\PROYECTO UNI4 FINAL\Funnel_ventas-ParteTito1\FUNNELVENTAS\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\Otto_\OneDrive\CICLO 2 TECNICO\PROGRA 2\Visual Studio\PROYECTO UNI4 FINAL\Funnel_ventas-ParteTito1\FUNNELVENTAS\bin\Debug\System.Memory.dll
+C:\Users\Otto_\OneDrive\CICLO 2 TECNICO\PROGRA 2\Visual Studio\PROYECTO UNI4 FINAL\Funnel_ventas-ParteTito1\FUNNELVENTAS\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Otto_\OneDrive\CICLO 2 TECNICO\PROGRA 2\Visual Studio\PROYECTO UNI4 FINAL\Funnel_ventas-ParteTito1\FUNNELVENTAS\bin\Debug\System.Buffers.dll
+C:\Users\Otto_\OneDrive\CICLO 2 TECNICO\PROGRA 2\Visual Studio\PROYECTO UNI4 FINAL\Funnel_ventas-ParteTito1\FUNNELVENTAS\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\Otto_\OneDrive\CICLO 2 TECNICO\PROGRA 2\Visual Studio\PROYECTO UNI4 FINAL\Funnel_ventas-ParteTito1\FUNNELVENTAS\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\Otto_\OneDrive\CICLO 2 TECNICO\PROGRA 2\Visual Studio\PROYECTO UNI4 FINAL\Funnel_ventas-ParteTito1\FUNNELVENTAS\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Otto_\OneDrive\CICLO 2 TECNICO\PROGRA 2\Visual Studio\PROYECTO UNI4 FINAL\Funnel_ventas-ParteTito1\FUNNELVENTAS\bin\Debug\MySql.Data.xml
+C:\Users\Otto_\OneDrive\CICLO 2 TECNICO\PROGRA 2\Visual Studio\PROYECTO UNI4 FINAL\Funnel_ventas-ParteTito1\FUNNELVENTAS\obj\Debug\FUNNELVENTAS.csproj.AssemblyReference.cache
+C:\Users\Otto_\OneDrive\CICLO 2 TECNICO\PROGRA 2\Visual Studio\PROYECTO UNI4 FINAL\Funnel_ventas-ParteTito1\FUNNELVENTAS\obj\Debug\FUNNELVENTAS.exe.config
+C:\Users\Otto_\OneDrive\CICLO 2 TECNICO\PROGRA 2\Visual Studio\PROYECTO UNI4 FINAL\Funnel_ventas-ParteTito1\FUNNELVENTAS\obj\Debug\FUNNELVENTAS.Form1.resources
+C:\Users\Otto_\OneDrive\CICLO 2 TECNICO\PROGRA 2\Visual Studio\PROYECTO UNI4 FINAL\Funnel_ventas-ParteTito1\FUNNELVENTAS\obj\Debug\FUNNELVENTAS.Form2.resources
+C:\Users\Otto_\OneDrive\CICLO 2 TECNICO\PROGRA 2\Visual Studio\PROYECTO UNI4 FINAL\Funnel_ventas-ParteTito1\FUNNELVENTAS\obj\Debug\FUNNELVENTAS.Form3.resources
+C:\Users\Otto_\OneDrive\CICLO 2 TECNICO\PROGRA 2\Visual Studio\PROYECTO UNI4 FINAL\Funnel_ventas-ParteTito1\FUNNELVENTAS\obj\Debug\FUNNELVENTAS.Form4.resources
+C:\Users\Otto_\OneDrive\CICLO 2 TECNICO\PROGRA 2\Visual Studio\PROYECTO UNI4 FINAL\Funnel_ventas-ParteTito1\FUNNELVENTAS\obj\Debug\FUNNELVENTAS.Form5.resources
+C:\Users\Otto_\OneDrive\CICLO 2 TECNICO\PROGRA 2\Visual Studio\PROYECTO UNI4 FINAL\Funnel_ventas-ParteTito1\FUNNELVENTAS\obj\Debug\FUNNELVENTAS.Properties.Resources.resources
+C:\Users\Otto_\OneDrive\CICLO 2 TECNICO\PROGRA 2\Visual Studio\PROYECTO UNI4 FINAL\Funnel_ventas-ParteTito1\FUNNELVENTAS\obj\Debug\FUNNELVENTAS.csproj.GenerateResource.cache
+C:\Users\Otto_\OneDrive\CICLO 2 TECNICO\PROGRA 2\Visual Studio\PROYECTO UNI4 FINAL\Funnel_ventas-ParteTito1\FUNNELVENTAS\obj\Debug\FUNNELVENTAS.csproj.CoreCompileInputs.cache
+C:\Users\Otto_\OneDrive\CICLO 2 TECNICO\PROGRA 2\Visual Studio\PROYECTO UNI4 FINAL\Funnel_ventas-ParteTito1\FUNNELVENTAS\obj\Debug\FUNNELVENTAS.csproj.CopyComplete
+C:\Users\Otto_\OneDrive\CICLO 2 TECNICO\PROGRA 2\Visual Studio\PROYECTO UNI4 FINAL\Funnel_ventas-ParteTito1\FUNNELVENTAS\obj\Debug\FUNNELVENTAS.exe
+C:\Users\Otto_\OneDrive\CICLO 2 TECNICO\PROGRA 2\Visual Studio\PROYECTO UNI4 FINAL\Funnel_ventas-ParteTito1\FUNNELVENTAS\obj\Debug\FUNNELVENTAS.pdb
+C:\Users\Otto_\OneDrive\CICLO 2 TECNICO\PROGRA 2\Visual Studio\PROYECTO UNI4 FINAL\Funnel_ventas-ParteTito1\FUNNELVENTAS\obj\Debug\FUNNELVENTAS.frmRegistro.resources
+C:\Users\Otto_\OneDrive\CICLO 2 TECNICO\PROGRA 2\Visual Studio\PROYECTO UNI4 FINAL\Funnel_ventas-ParteTito1\FUNNELVENTAS\obj\Debug\FUNNELVENTAS.frmLogin.resources
+C:\Users\Otto_\OneDrive\CICLO 2 TECNICO\PROGRA 2\Visual Studio\PROYECTO UNI4 FINAL\Funnel_ventas-ParteTito1\FUNNELVENTAS\obj\Debug\FUNNELVENTAS.frmPrincipal.resources
+C:\Users\Otto_\OneDrive\CICLO 2 TECNICO\PROGRA 2\Visual Studio\PROYECTO UNI4 FINAL\Funnel_ventas-ParteTito1\FUNNELVENTAS\obj\Debug\FUNNELVENTAS.FormModificar.resources
