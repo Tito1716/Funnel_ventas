@@ -10,10 +10,11 @@ using MySql.Data.MySqlClient;
 using FUNNELVENTAS.Clases;
 using System.Windows.Forms;
 using System.Collections.Generic;
+using SpreadsheetLight;
 
 public class cConexion
 {
-    const String var_ruta = "server=localhost;user id=root;password=2021;persist security info=True;database=funnel_ventas2";
+    const String var_ruta = "server=localhost;user id=root;password=24505147St*;persist security info=True;database=funnel_ventas2";
     DataSet ds = new DataSet();
     MySql.Data.MySqlClient.MySqlConnection cnSQL = new MySql.Data.MySqlClient.MySqlConnection(var_ruta);
     MySql.Data.MySqlClient.MySqlCommand cmSQL = new MySql.Data.MySqlClient.MySqlCommand();
