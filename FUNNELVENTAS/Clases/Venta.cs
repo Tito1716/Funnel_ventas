@@ -6,11 +6,12 @@ using System.Threading.Tasks;
 
 namespace FUNNELVENTAS.Clases
 {
-    class Venta
-    {
-		public int id_venta { get; set; }
+	public class Venta
+	{
 		public string nombre_cliente { get; set; }
 		public string Ejecutivo_Cuentas { get; set; }
+		public int tipo_clase { get; set; }
+		public int tipo_proyeccion { get; set; }
 		public int tipo_gestion { get; set; }
 		public int tipo_estado { get; set; }
 		public int prox_Gestion { get; set; }
@@ -31,5 +32,6 @@ namespace FUNNELVENTAS.Clases
 		public string detalle_consultoria { get; set; }
 		public int monto_consultoria { get; set; }
 		public int total { get; set; }
-	}
+		public int tipo_proyecion  { get; set; }
+}
 }
