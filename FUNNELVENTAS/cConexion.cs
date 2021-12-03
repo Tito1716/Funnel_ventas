@@ -1,14 +1,19 @@
 using System;
 using System.Data;
+using System.ComponentModel;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using System.Configuration;
 using MySql.Data.MySqlClient;
 using FUNNELVENTAS.Clases;
+using System.Windows.Forms;
 using System.Collections.Generic;
-using SpreadsheetLight;
 
 public class cConexion
 {
-    const String var_ruta = "server=localhost;user id=root;password=24505147St*;persist security info=True;database=funnel_ventas2";
+    const String var_ruta = "server=localhost;user id=root;password=2021;persist security info=True;database=funnel_ventas2";
     DataSet ds = new DataSet();
     MySql.Data.MySqlClient.MySqlConnection cnSQL = new MySql.Data.MySqlClient.MySqlConnection(var_ruta);
     MySql.Data.MySqlClient.MySqlCommand cmSQL = new MySql.Data.MySqlClient.MySqlCommand();
@@ -159,19 +164,22 @@ public class cConexion
             using (var command = new MySqlCommand())
             {
                 command.Connection = connection;
-                command.CommandText = "select * from  usuario where(nombre=@nombre and password=@pass)";
+                command.CommandText = "select * from  usuario where(nombre=@nombre and password=@pass )";
                 command.Parameters.AddWithValue("@nombre", nombre);
                 command.Parameters.AddWithValue("@pass", pass);
+          
                 command.CommandType = CommandType.Text;
                 MySqlDataReader reader = command.ExecuteReader();
                 if (reader.HasRows)
-                {
+                { 
                     while (reader.Read())
                     {
                         usu.Id_usuario = reader.GetInt32(0);
                         usu.Nombre = reader.GetString(1);
                         usu.Password = reader.GetString(2);
-                        usu.Tipo_usuario = reader.GetInt32(3);
+                        usu.Usuario = reader.GetString(3);
+                        usu.Tipo_usuario = reader.GetInt32(4);
+                        
                     }
                     return true;
                 }

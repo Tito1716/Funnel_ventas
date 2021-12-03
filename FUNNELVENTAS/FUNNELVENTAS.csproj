@@ -66,6 +66,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="cConexion.cs" />
+    <Compile Include="clases tipousuario\Control.cs" />
+    <Compile Include="clases tipousuario\Modelo.cs" />
+    <Compile Include="clases tipousuario\Session.cs" />
+    <Compile Include="clases tipousuario\Usuarios.cs" />
     <Compile Include="Clases\usuario.cs" />
     <Compile Include="Clases\Venta.cs" />
     <Compile Include="Form1.cs">
@@ -92,6 +96,41 @@
     <Compile Include="Form4.Designer.cs">
       <DependentUpon>Form4.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form5.Designer.cs">
+      <DependentUpon>Form5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms administrador\FormModificar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms administrador\FormModificar.Designer.cs">
+      <DependentUpon>FormModificar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms administrador\FormRegistro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms administrador\FormRegistro.designer.cs">
+      <DependentUpon>FormRegistro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms administrador\frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms administrador\frmLogin.designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms administrador\frmPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms administrador\frmPrincipal.designer.cs">
+      <DependentUpon>frmPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="funnel_ventas2DataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>funnel_ventas2DataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Clases\validaciones.cs" />
@@ -107,6 +146,21 @@
     <EmbeddedResource Include="Form4.resx">
       <DependentUpon>Form4.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Form5.resx">
+      <DependentUpon>Form5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms administrador\FormModificar.resx">
+      <DependentUpon>FormModificar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms administrador\FormRegistro.resx">
+      <DependentUpon>FormRegistro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms administrador\frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms administrador\frmPrincipal.resx">
+      <DependentUpon>frmPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -120,6 +174,17 @@
       <Link>.editorconfig</Link>
     </None>
     <None Include="packages.config" />
+    <None Include="funnel_ventas2DataSet.xsc">
+      <DependentUpon>funnel_ventas2DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="funnel_ventas2DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>funnel_ventas2DataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="funnel_ventas2DataSet.xss">
+      <DependentUpon>funnel_ventas2DataSet.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

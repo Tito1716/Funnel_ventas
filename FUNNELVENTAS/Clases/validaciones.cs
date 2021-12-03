@@ -2,11 +2,13 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using MySql.Data.MySqlClient;
+using FUNNELVENTAS.Clases;
 using System.Threading.Tasks;
 
 namespace FUNNELVENTAS
 {
-    class validaciones
+   public class validaciones
     {
         public bool Vacio(string nombre, string contra)
         {
@@ -18,6 +20,14 @@ namespace FUNNELVENTAS
             {
                 return false;
             }
-        }
+       
+       }
+
+      
+
+
+
     }
+
+    
 }
