@@ -6,8 +6,8 @@ public class cConexion
 {
     const String var_ruta = "server=localhost;user id=root;password=suclave;persist security info=True;database=subasededatos";
     DataSet ds = new DataSet();
-    MySql.Data.MySqlClient.MySqlConnection cnSQL=new MySql.Data.MySqlClient.MySqlConnection(var_ruta);
-    MySql.Data.MySqlClient.MySqlCommand cmSQL=new MySql.Data.MySqlClient.MySqlCommand();
+    public MySql.Data.MySqlClient.MySqlConnection cnSQL=new MySql.Data.MySqlClient.MySqlConnection(var_ruta);
+    public MySql.Data.MySqlClient.MySqlCommand cmSQL=new MySql.Data.MySqlClient.MySqlCommand();
 
     public DataSet buscar(String strSQL,String tabla){
         DataSet ds= new DataSet();
