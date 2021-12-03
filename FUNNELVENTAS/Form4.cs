@@ -6,6 +6,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using MySql.Data.MySqlClient;
 using FUNNELVENTAS.Clases;
 using System.Windows.Forms;
 
@@ -28,18 +29,27 @@ namespace FUNNELVENTAS
 
         private void button1_Click(object sender, EventArgs e)
         {
+
+
+            
+
+
             usuarioClase.Nombre = textBox1.Text;
             usuarioClase.Password = textBox2.Text;
-            if (va.Vacio(usuarioClase.Nombre, usuarioClase.Password)){
+            
 
-               
+            if (va.Vacio(usuarioClase.Nombre, usuarioClase.Password))  {
+
+                MessageBox.Show("Formulario Vacio", "Ingresar datos", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             }
             else
             {
                 if (con.login(usuarioClase.Nombre, usuarioClase.Password))
                 {
-                    MessageBox.Show("Session iniciada","Exito", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                     
+                    MessageBox.Show("Session iniciada", "Exito", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
 
+               
                 }
                 else
                 {
