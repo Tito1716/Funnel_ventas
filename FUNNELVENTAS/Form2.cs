@@ -28,6 +28,9 @@ namespace FUNNELVENTAS
         }
         private void button1_Click(object sender, EventArgs e)
         {
+            if (String.IsNullOrEmpty(textBox3.Text)) { textBox3.Text = "0"; }
+            if (String.IsNullOrEmpty(textBox4.Text)) { textBox3.Text = "0"; }
+            if (String.IsNullOrEmpty(textBox7.Text)) { textBox3.Text = "0"; }
             ventaForm2.tipo_equipo = int.Parse(comboBox1.SelectedValue.ToString());
             ventaForm2.marca_equipo = int.Parse(comboBox2.SelectedValue.ToString());
             ventaForm2.tipo_enlace = int.Parse(comboBox4.SelectedValue.ToString());
@@ -44,7 +47,9 @@ namespace FUNNELVENTAS
             ventaForm2.detalle_consultoria = textBox9.Text;
             ventaForm2.monto_consultoria = int.Parse(textBox8.Text);
             ventaForm2.total = ventaForm2.monto_consultoria + ventaForm2.monto_equipo + ventaForm2.monto_enlace;
+            
             con.Guardar(ventaForm2);
+            MessageBox.Show("Venta realizada", "Exito", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         private void label2_Click(object sender, EventArgs e)

@@ -36,7 +36,7 @@ namespace FUNNELVENTAS
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(333, 40);
+            this.label1.Location = new System.Drawing.Point(138, 39);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(66, 13);
             this.label1.TabIndex = 0;
@@ -44,7 +44,7 @@ namespace FUNNELVENTAS
             // 
             // btnExcel
             // 
-            this.btnExcel.Location = new System.Drawing.Point(124, 101);
+            this.btnExcel.Location = new System.Drawing.Point(111, 99);
             this.btnExcel.Name = "btnExcel";
             this.btnExcel.Size = new System.Drawing.Size(102, 37);
             this.btnExcel.TabIndex = 1;
@@ -56,12 +56,11 @@ namespace FUNNELVENTAS
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(373, 194);
             this.Controls.Add(this.btnExcel);
             this.Controls.Add(this.label1);
             this.Name = "Form3";
             this.Text = "Form3";
-           
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -48,6 +48,10 @@ namespace FUNNELVENTAS
                 {
                      
                     MessageBox.Show("Session iniciada", "Exito", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                    Form1 fr = new Form1();
+                    fr.ShowDialog();
+                    this.Hide();
+                    
 
                
                 }

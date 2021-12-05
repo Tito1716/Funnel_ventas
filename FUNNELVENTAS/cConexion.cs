@@ -178,8 +178,8 @@ public class cConexion
                         usu.Id_usuario = reader.GetInt32(0);
                         usu.Nombre = reader.GetString(1);
                         usu.Password = reader.GetString(2);
-                        usu.Usuario = reader.GetString(3);
-                        usu.Tipo_usuario = reader.GetInt32(4);
+                        //usu.Usuario = reader.GetString(3);
+                        usu.Tipo_usuario = reader.GetInt32(3);
                         
                     }
                     return true;

@@ -57,9 +57,9 @@ namespace FUNNELVENTAS
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(29, 52);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(41, 13);
+            this.label1.Size = new System.Drawing.Size(107, 13);
             this.label1.TabIndex = 0;
-            this.label1.Text = "CLASE";
+            this.label1.Text = "CLASE DE CLIENTE";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // textBox2

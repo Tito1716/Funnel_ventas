@@ -32,8 +32,8 @@ namespace FUNNELVENTAS
                 }
                 else { 
 
-                   if (Session.id_tipo==2) {
-                    Form1 frm1 = new Form1();
+                   if (Session.id_tipo==1) {
+                    Menu frm1 = new Menu();
                     frm1.Visible = true;
                     this.Visible = false;
                     }
