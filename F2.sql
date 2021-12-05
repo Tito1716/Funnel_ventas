@@ -105,7 +105,7 @@ alter table ventas add foreign key(tipo_consultoria) references tipo_consultoria
 alter table ventas add foreign key(tipo_consultoria2) references tipo_consultoria2(id_tipo_consultoria2);
 
 alter table usuario add foreign key (tipo_usuario) references tipo_usuario(id_tipo_usuario);
-
+alter table usuario add column (usuario varchar(100));
 alter table ventas add column (tipo_proyecion int);
 
 alter table ventas add foreign key(tipo_clase) references tipo_clase(id_tipo_clase);
