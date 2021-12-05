@@ -22,6 +22,7 @@ namespace FUNNELVENTAS
         {
             cConexion con = new cConexion();
             con.ConsultaExcel();
+            MessageBox.Show("Reporte Generado", "Exito en la operacion", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
 
         }
     }
