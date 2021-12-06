@@ -16,8 +16,8 @@ public class cConexion
 {
     const String var_ruta = "server=localhost;user id=root;password=24505147St*;persist security info=True;database=funnel_ventas2";
     DataSet ds = new DataSet();
-    MySql.Data.MySqlClient.MySqlConnection cnSQL = new MySql.Data.MySqlClient.MySqlConnection(var_ruta);
-    MySql.Data.MySqlClient.MySqlCommand cmSQL = new MySql.Data.MySqlClient.MySqlCommand();
+    public MySql.Data.MySqlClient.MySqlConnection cnSQL = new MySql.Data.MySqlClient.MySqlConnection(var_ruta);
+    public MySql.Data.MySqlClient.MySqlCommand cmSQL = new MySql.Data.MySqlClient.MySqlCommand();
 
     public DataSet buscar(String strSQL, String tabla) {
         DataSet ds = new DataSet();
