@@ -134,6 +134,6 @@ insert into tipo_clase(nombre_tipo_clase)values("Clase2");
 insert into prox_gestion(nombre_tipo_gestion)values("Prox2");
 insert into tipo_usuario(id_tipo_usuario, nombre_tipo_usuario)values(1, "Admin");
 insert into tipo_usuario(id_tipo_usuario, nombre_tipo_usuario)values(2, "Vendedor");
-insert into usuario(nombre, password, tipo_usuario) values ("Juan", "1231", 1);
-insert into usuario(nombre, password, tipo_usuario) values ("Fernando", "1231", 2);
+insert into usuario(nombre, usuario, password, tipo_usuario) values ("Juan","Juan" ,"1231", 1);
+insert into usuario(nombre, usuario, password, tipo_usuario) values ("Fernando", "Juan","1231", 2);
 
